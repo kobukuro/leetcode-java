@@ -1,7 +1,7 @@
 //Array, Hash Table, Sorting
 
 
-import java.util.HashSet;
+import java.util.*;
 
 public class ContainsDuplicate217 {
     /*
@@ -9,7 +9,7 @@ public class ContainsDuplicate217 {
         Space complexity:O(n).
     */
     public boolean containsDuplicate(int[] nums) {
-        HashSet<Integer> hashSet = new HashSet<>();
+        Set<Integer> hashSet = new HashSet<>();
         for (int num : nums) {
             if (hashSet.contains(num)) {
                 return true;
