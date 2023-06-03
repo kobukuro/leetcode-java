@@ -1,7 +1,8 @@
 //Array, Hash Table, Sorting
 
 
-import java.util.*;
+import java.util.Set;
+import java.util.HashSet;
 
 public class ContainsDuplicate217 {
     /*
