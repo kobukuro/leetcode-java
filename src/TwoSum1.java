@@ -1,7 +1,6 @@
 //Hash Table, Array
 
-import java.util.Arrays;
-import java.util.HashMap;
+import java.util.*;
 
 public class TwoSum1 {
     /*
@@ -14,7 +13,7 @@ public class TwoSum1 {
     which stores at most n elements.
     */
     public int[] twoSum(int[] nums, int target) {
-        HashMap<Integer, Integer> hashMap = new HashMap<>();
+        Map<Integer, Integer> hashMap = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
             if (hashMap.containsKey(complement)) {
