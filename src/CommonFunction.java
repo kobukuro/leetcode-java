@@ -20,4 +20,14 @@ public class CommonFunction {
         }
         return res;
     }
+
+    public List<Integer> LinkedListTraversal(ListNode head) {
+        List<Integer> res = new ArrayList<>();
+        ListNode curr = head;
+        while (curr != null) {
+            res.add(curr.val);
+            curr = curr.next;
+        }
+        return res;
+    }
 }
