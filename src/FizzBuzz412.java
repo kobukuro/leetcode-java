@@ -20,7 +20,6 @@ public class FizzBuzz412 {
 
     public static void main(String[] args) {
         int n = 3;
-        // ["1","2","Fizz"]
-        System.out.println(new FizzBuzz412().fizzBuzz(n));
+        System.out.println(new FizzBuzz412().fizzBuzz(n)); // ["1","2","Fizz"]
     }
 }
