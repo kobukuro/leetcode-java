@@ -15,13 +15,13 @@ public class TwoSum1 {
     which stores at most n elements.
     */
     public int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> hashMap = new HashMap<>();
+        Map<Integer, Integer> lookup = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
-            if (hashMap.containsKey(complement)) {
-                return new int[]{hashMap.get(complement), i};
+            if (lookup.containsKey(complement)) {
+                return new int[]{lookup.get(complement), i};
             } else {
-                hashMap.put(nums[i], i);
+                lookup.put(nums[i], i);
             }
         }
         return null;
