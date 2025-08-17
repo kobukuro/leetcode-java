@@ -1,6 +1,6 @@
-//Hash Table, Array
+// Tags: Hash Table
+package com.leetcode.easy;
 
-import java.util.Arrays;
 import java.util.Map;
 import java.util.HashMap;
 
@@ -24,12 +24,6 @@ public class TwoSum1 {
             lookup.put(nums[i], i);
         }
         return null;
-    }
-
-    public static void main(String[] args) {
-        int[] nums = new int[]{2, 7, 11, 15};
-        int target = 9;
-        System.out.println(Arrays.toString(new TwoSum1().twoSum(nums, target))); // [0, 1]
     }
 }
 
