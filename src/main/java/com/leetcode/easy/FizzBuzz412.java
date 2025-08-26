@@ -1,7 +1,14 @@
+// Tags: Math
+package com.leetcode.easy;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class FizzBuzz412 {
+    /*
+        Time complexity: O(N)
+        Space complexity: O(1)
+    */
     public List<String> fizzBuzz(int n) {
         List<String> res = new ArrayList<>();
         for (int i = 1; i <= n; i++) {
@@ -16,10 +23,5 @@ public class FizzBuzz412 {
             }
         }
         return res;
-    }
-
-    public static void main(String[] args) {
-        int n = 3;
-        System.out.println(new FizzBuzz412().fizzBuzz(n)); // ["1","2","Fizz"]
     }
 }
