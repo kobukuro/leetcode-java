@@ -42,7 +42,7 @@ public class CoinChange322 {
     }
 
     /*
-        C:length of coins array, A:target amount
+        C: length of coins array, A: target amount
         Time complexity: O(A*C), C work for A sub problems
         Space complexity: O(A)
      */
