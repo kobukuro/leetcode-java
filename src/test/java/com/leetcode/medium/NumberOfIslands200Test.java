@@ -3,6 +3,8 @@ package com.leetcode.medium;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class NumberOfIslands200Test {
     private NumberOfIslands200 solution;
 
@@ -20,7 +22,7 @@ public class NumberOfIslands200Test {
                 {'0', '0', '0', '0', '0'}
         };
         int result = solution.numIslands(grid);
-        assert result == 1;
+        assertEquals(1, result);
     }
 
     @Test
@@ -32,6 +34,6 @@ public class NumberOfIslands200Test {
                 {'0', '0', '0', '1', '1'}
         };
         int result = solution.numIslands(grid);
-        assert result == 3;
+        assertEquals(3, result);
     }
 }
