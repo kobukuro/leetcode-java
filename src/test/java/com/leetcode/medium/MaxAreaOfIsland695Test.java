@@ -3,6 +3,8 @@ package com.leetcode.medium;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class MaxAreaOfIsland695Test {
     private MaxAreaOfIsland695 solution;
 
@@ -23,7 +25,7 @@ public class MaxAreaOfIsland695Test {
                 {0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0}};
         int expected = 6;
         int result = solution.maxAreaOfIsland(grid);
-        assert result == expected : "Test failed! Expected: " + expected + ", but got: " + result;
+        assertEquals(expected, result);
     }
 
     @Test
@@ -33,6 +35,6 @@ public class MaxAreaOfIsland695Test {
         };
         int expected = 0;
         int result = solution.maxAreaOfIsland(grid);
-        assert result == expected : "Test failed! Expected: " + expected + ", but got: " + result;
+        assertEquals(expected, result);
     }
 }
