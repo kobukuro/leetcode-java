@@ -15,10 +15,10 @@ public class MaxAreaOfIsland695 {
     }
 
     /*
-        Time complexity: O(R∗C), where R is the number of rows in the given grid, and C is the number of columns.
+        Time complexity: O(R*C), where R is the number of rows in the given grid, and C is the number of columns.
         We visit every square once.
 
-        Space complexity: O(R∗C),
+        Space complexity: O(R*C),
         the space used by visited to keep track of visited squares and the space used by the call stack during our recursion.
      */
     public int maxAreaOfIsland(int[][] grid) {
