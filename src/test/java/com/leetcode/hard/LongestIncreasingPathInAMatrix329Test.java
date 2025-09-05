@@ -2,11 +2,11 @@ package com.leetcode.hard;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Timeout;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTimeoutPreemptively;
 
 public class LongestIncreasingPathInAMatrix329Test {
     private LongestIncreasingPathInAMatrix329 solution;
@@ -17,7 +17,6 @@ public class LongestIncreasingPathInAMatrix329Test {
     }
 
     @Test
-    @Timeout(value = 100, unit = TimeUnit.MILLISECONDS)
     void testLongestIncreasingPath_Example1() {
         int[][] matrix = {
                 {9, 9, 4},
@@ -26,13 +25,12 @@ public class LongestIncreasingPathInAMatrix329Test {
         };
         int expected = 4;
 
-        int result = solution.longestIncreasingPath(matrix);
+        int result = assertTimeoutPreemptively(Duration.ofMillis(100), () -> solution.longestIncreasingPath(matrix));
 
         assertEquals(expected, result);
     }
 
     @Test
-    @Timeout(value = 100, unit = TimeUnit.MILLISECONDS)
     void testLongestIncreasingPath_Example2() {
         int[][] matrix = {
                 {3, 4, 5},
@@ -41,26 +39,24 @@ public class LongestIncreasingPathInAMatrix329Test {
         };
         int expected = 4;
 
-        int result = solution.longestIncreasingPath(matrix);
+        int result = assertTimeoutPreemptively(Duration.ofMillis(100), () -> solution.longestIncreasingPath(matrix));
 
         assertEquals(expected, result);
     }
 
     @Test
-    @Timeout(value = 100, unit = TimeUnit.MILLISECONDS)
     void testLongestIncreasingPath_Example3() {
         int[][] matrix = {
                 {1}
         };
         int expected = 1;
 
-        int result = solution.longestIncreasingPath(matrix);
+        int result = assertTimeoutPreemptively(Duration.ofMillis(100), () -> solution.longestIncreasingPath(matrix));
 
         assertEquals(expected, result);
     }
 
     @Test
-    @Timeout(value = 100, unit = TimeUnit.MILLISECONDS)
     void testLongestIncreasingPath_Example4() {
         int[][] matrix = {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9},
                 {19, 18, 17, 16, 15, 14, 13, 12, 11, 10},
@@ -79,7 +75,7 @@ public class LongestIncreasingPathInAMatrix329Test {
                 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}};
         int expected = 140;
 
-        int result = solution.longestIncreasingPath(matrix);
+        int result = assertTimeoutPreemptively(Duration.ofMillis(100), () -> solution.longestIncreasingPath(matrix));
 
         assertEquals(expected, result);
     }
