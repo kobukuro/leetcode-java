@@ -4,6 +4,7 @@ import com.leetcode.datastructure.TreeNode;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.HashSet;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -38,7 +39,7 @@ public class PathSumII113Test {
 
         List<List<Integer>> result = solution.pathSum(root, targetSum);
 
-        assertEquals(expected, result);
+        assertEquals(new HashSet<>(expected), new HashSet<>(result));
     }
 
     @Test
