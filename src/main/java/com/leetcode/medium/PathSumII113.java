@@ -1,7 +1,10 @@
-// Tree, Backtracking, Depth-First Search, Binary Tree
+// Tags: Tree, DFS, Backtracking
+package com.leetcode.medium;
 
-import java.util.List;
+import com.leetcode.datastructure.TreeNode;
+
 import java.util.ArrayList;
+import java.util.List;
 
 public class PathSumII113 {
     private void dfs(TreeNode node, List<List<Integer>> res, List<Integer> path, int remainingSum) {
@@ -14,8 +17,9 @@ public class PathSumII113 {
         }
         this.dfs(node.left, res, path, remainingSum - node.val);
         this.dfs(node.right, res, path, remainingSum - node.val);
-        path.remove(path.size() - 1);
+        path.removeLast();
     }
+
     /*
         Time Complexity: O(N^2)
         where N are the number of nodes in a tree.
@@ -29,14 +33,7 @@ public class PathSumII113 {
      */
     public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
         List<List<Integer>> res = new ArrayList<>();
-        List<Integer> path = new ArrayList<>();
-        this.dfs(root, res, path, targetSum);
+        this.dfs(root, res, new ArrayList<>(), targetSum);
         return res;
-    }
-
-    public static void main(String[] args) {
-        TreeNode root = new TreeNode(5, new TreeNode(4, new TreeNode(11, new TreeNode(7), new TreeNode(2)), null), new TreeNode(8, new TreeNode(13), new TreeNode(4, new TreeNode(5), new TreeNode(1))));
-        int targetSum = 22;
-        System.out.println(new PathSumII113().pathSum(root, targetSum)); // [[5, 4, 11, 2], [5, 8, 4, 5]]
     }
 }
