@@ -38,6 +38,14 @@ public class PathSumII113Test {
 
         List<List<Integer>> result = solution.pathSum(root, targetSum);
 
+        result.sort((a, b) -> {
+            for (int i = 0; i < Math.min(a.size(), b.size()); i++) {
+                int cmp = Integer.compare(a.get(i), b.get(i));
+                if (cmp != 0) return cmp;
+            }
+            return Integer.compare(a.size(), b.size());
+        });
+
         assertEquals(expected, result);
     }
 
