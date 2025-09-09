@@ -3,6 +3,8 @@ package com.leetcode.easy;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class RichestCustomerWealth1672Test {
     private RichestCustomerWealth1672 solution;
 
@@ -19,7 +21,7 @@ public class RichestCustomerWealth1672Test {
         };
         int expected = 6;
         int result = solution.maximumWealth(accounts);
-        assert result == expected : "Expected " + expected + " but got " + result;
+        assertEquals(expected, result);
     }
 
     @Test
@@ -31,7 +33,7 @@ public class RichestCustomerWealth1672Test {
         };
         int expected = 10;
         int result = solution.maximumWealth(accounts);
-        assert result == expected : "Expected " + expected + " but got " + result;
+        assertEquals(expected, result);
     }
 
     @Test
@@ -43,6 +45,6 @@ public class RichestCustomerWealth1672Test {
         };
         int expected = 17;
         int result = solution.maximumWealth(accounts);
-        assert result == expected : "Expected " + expected + " but got " + result;
+        assertEquals(expected, result);
     }
 }
