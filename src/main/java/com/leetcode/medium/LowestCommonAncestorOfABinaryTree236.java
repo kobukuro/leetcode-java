@@ -17,8 +17,8 @@ public class LowestCommonAncestorOfABinaryTree236 {
         if (root == p || root == q || root == null) {
             return root;
         }
-        TreeNode left = this.lowestCommonAncestor(root.left, p, q);
-        TreeNode right = this.lowestCommonAncestor(root.right, p, q);
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
         if (left != null && right != null) {
             return root;
         }
