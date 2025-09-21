@@ -1,8 +1,11 @@
-// Linked List, Hash Table, Two Pointers
+// Tags: Linked List, Two Pointers
+package com.leetcode.easy;
+
+import com.leetcode.datastructure.ListNode;
 
 public class LinkedListCycle141 {
     /*
-        Time complexity : O(n). Let us denote n as the total number of nodes in the linked list.
+        Time complexity: O(n). Let us denote n as the total number of nodes in the linked list.
         To analyze its time complexity, we consider the following two cases separately.
 
         List has no cycle:
@@ -27,7 +30,7 @@ public class LinkedListCycle141 {
 
         Therefore, the worst case time complexity is O(N+K), which is O(n).
 
-        Space complexity : O(1). We only use two nodes (slow and fast) so the space complexity is O(1).
+        Space complexity: O(1). We only use two nodes (slow and fast) so the space complexity is O(1).
      */
     public boolean hasCycle(ListNode head) {
         ListNode slow = head;
@@ -40,14 +43,5 @@ public class LinkedListCycle141 {
             }
         }
         return false;
-    }
-
-    public static void main(String[] args) {
-        ListNode head = new ListNode(3);
-        ListNode cycleNode = new ListNode(2);
-        ListNode otherNode = new ListNode(0, new ListNode(-4, cycleNode));
-        head.next = cycleNode;
-        cycleNode.next = otherNode;
-        System.out.println(new LinkedListCycle141().hasCycle(head)); // true
     }
 }
