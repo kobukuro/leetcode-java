@@ -10,7 +10,7 @@ public class KthSmallestElementInABST230Test {
     private KthSmallestElementInABST230 solution;
 
     @BeforeEach
-    public void setUp() {
+    void setUp() {
         solution = new KthSmallestElementInABST230();
     }
 
