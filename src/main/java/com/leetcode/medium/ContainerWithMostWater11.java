@@ -1,7 +1,11 @@
+// Tags: Two Pointers, Greedy
+package com.leetcode.medium;
+
 public class ContainerWithMostWater11 {
-    /*
-        Time Complexity: O(n)
-        Space Complexity: O(1)
+    /**
+     * Time Complexity: O(n)
+     * <p>
+     * Space Complexity: O(1)
      */
     public int maxArea(int[] height) {
         int l = 0;
@@ -17,10 +21,5 @@ public class ContainerWithMostWater11 {
             }
         }
         return res;
-    }
-
-    public static void main(String[] args) {
-        int[] height = new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7};
-        System.out.println(new ContainerWithMostWater11().maxArea(height)); // 49
     }
 }
