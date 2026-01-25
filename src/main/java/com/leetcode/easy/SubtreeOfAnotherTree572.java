@@ -31,7 +31,7 @@ public class SubtreeOfAnotherTree572 {
      * Hence, the overall time complexity is O(M*N).
      * <p>
      * Space complexity: O(M+N).
-     * There will be at most N recursive call to isSubtree.
+     * There will be at most N recursive calls to isSubtree.
      * Now, each of these calls will have M recursive calls to isSameTree.
      * Before calling isSameTree, our call stack has at most O(N) elements
      * and might increase to O(N+M) during the call.
