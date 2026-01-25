@@ -25,7 +25,7 @@ public class SubtreeOfAnotherTree572 {
      * M is the number of nodes in the tree rooted at subRoot
      * <p>
      * Time complexity: O(M*N).
-     * For every N node in the tree,
+     * For each of the N nodes in the tree,
      * we check if the tree rooted at node is identical to subRoot.
      * This check takes O(M) time, where M is the number of nodes in subRoot.
      * Hence, the overall time complexity is O(M*N).
