@@ -14,7 +14,7 @@ public class CountAsterisks2315Test {
     }
 
     @Test
-    void testTwoSum_Example1() {
+    void testCountAsterisks_Example1() {
         String s = "l|*e*et|c**o|*de|";
 
         int result = solution.countAsterisks(s);
@@ -23,7 +23,7 @@ public class CountAsterisks2315Test {
     }
 
     @Test
-    void testTwoSum_Example2() {
+    void testCountAsterisks_Example2() {
         String s = "iamprogrammer";
 
         int result = solution.countAsterisks(s);
@@ -32,7 +32,7 @@ public class CountAsterisks2315Test {
     }
 
     @Test
-    void testTwoSum_Example3() {
+    void testCountAsterisks_Example3() {
         String s = "yo|uar|e**|b|e***au|tiful";
 
         int result = solution.countAsterisks(s);
