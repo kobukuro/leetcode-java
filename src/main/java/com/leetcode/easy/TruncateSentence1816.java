@@ -1,3 +1,4 @@
+// Tags: String
 package com.leetcode.easy;
 
 public class TruncateSentence1816 {
