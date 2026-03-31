@@ -44,11 +44,11 @@ Each problem follows this structure:
 
 ## Solutions
 
-📊 **Statistics**: 51 problems solved (migrated to new structure)
+📊 **Statistics**: 52 problems solved (migrated to new structure)
 
 | Difficulty | Count |
 |------------|-------|
-| Easy       | 35    |
+| Easy       | 36    |
 | Medium     | 15    |
 | Hard       | 1     |
 
