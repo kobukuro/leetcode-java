@@ -6,9 +6,9 @@ A collection of LeetCode problem solutions implemented in Java with detailed com
 
 🔄 **Currently migrating from old structure to new directory structure**
 
-This project is being reorganized. The following problems have been migrated to the new structure:
+This project is being reorganized.
 
-- ✅ Migrated problems in `src/main/java/com/leetcode/` directory (51 problems listed below)
+- ✅ Migrated problems in `src/main/java/com/leetcode/` directory
 - ⏳ Legacy problems still being migrated
 
 ## Project Structure
