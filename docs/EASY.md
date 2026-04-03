@@ -1,6 +1,6 @@
 # Easy Problems
 
-Total: 36 problems solved
+Total: 37 problems solved
 
 ## Solutions
 
@@ -37,6 +37,7 @@ Total: 36 problems solved
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | [FinalValueOfVariableAfterPerformingOperations2011.java](../src/main/java/com/leetcode/easy/FinalValueOfVariableAfterPerformingOperations2011.java) | [FinalValueOfVariableAfterPerformingOperations2011Test.java](../src/test/java/com/leetcode/easy/FinalValueOfVariableAfterPerformingOperations2011Test.java) |
 | 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | [TwoOutOfThree2032.java](../src/main/java/com/leetcode/easy/TwoOutOfThree2032.java) | [TwoOutOfThree2032Test.java](../src/test/java/com/leetcode/easy/TwoOutOfThree2032Test.java) |
 | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/) | [CheckIfAllAsAppearsBeforeAllBs2124.java](../src/main/java/com/leetcode/easy/CheckIfAllAsAppearsBeforeAllBs2124.java) | [CheckIfAllAsAppearsBeforeAllBs2124Test.java](../src/test/java/com/leetcode/easy/CheckIfAllAsAppearsBeforeAllBs2124Test.java) |
+| 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | [CountingWordsWithAGivenPrefix2185.java](../src/main/java/com/leetcode/easy/CountingWordsWithAGivenPrefix2185.java) | [CountingWordsWithAGivenPrefix2185Test.java](../src/test/java/com/leetcode/easy/CountingWordsWithAGivenPrefix2185Test.java) |
 | 2315 | [Count Asterisks](https://leetcode.com/problems/count-asterisks/) | [CountAsterisks2315.java](../src/main/java/com/leetcode/easy/CountAsterisks2315.java) | [CountAsterisks2315Test.java](../src/test/java/com/leetcode/easy/CountAsterisks2315Test.java) |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | [ConvertTheTemperature2469.java](../src/main/java/com/leetcode/easy/ConvertTheTemperature2469.java) | [ConvertTheTemperature2469Test.java](../src/test/java/com/leetcode/easy/ConvertTheTemperature2469Test.java) |
 | 2798 | [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/) | [NumberOfEmployeesWhoMetTheTarget2798.java](../src/main/java/com/leetcode/easy/NumberOfEmployeesWhoMetTheTarget2798.java) | [NumberOfEmployeesWhoMetTheTarget2798Test.java](../src/test/java/com/leetcode/easy/NumberOfEmployeesWhoMetTheTarget2798Test.java) |
