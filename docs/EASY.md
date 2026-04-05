@@ -1,6 +1,6 @@
 # Easy Problems
 
-Total: 37 problems solved
+Total: 38 problems solved
 
 ## Solutions
 
@@ -34,6 +34,7 @@ Total: 37 problems solved
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [RichestCustomerWealth1672.java](../src/main/java/com/leetcode/easy/RichestCustomerWealth1672.java) | [RichestCustomerWealth1672Test.java](../src/test/java/com/leetcode/easy/RichestCustomerWealth1672Test.java) |
 | 1773 | [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) | [CountItemsMatchingARule1773.java](../src/main/java/com/leetcode/easy/CountItemsMatchingARule1773.java) | [CountItemsMatchingARule1773Test.java](../src/test/java/com/leetcode/easy/CountItemsMatchingARule1773Test.java) |
 | 1816 | [Truncate Sentence](https://leetcode.com/problems/truncate-sentence/) | [TruncateSentence1816.java](../src/main/java/com/leetcode/easy/TruncateSentence1816.java) | [TruncateSentence1816Test.java](../src/test/java/com/leetcode/easy/TruncateSentence1816Test.java) |
+| 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/) | [CheckIfAllCharactersHaveEqualNumberOfOccurrences1941.java](../src/main/java/com/leetcode/easy/CheckIfAllCharactersHaveEqualNumberOfOccurrences1941.java) | [CheckIfAllCharactersHaveEqualNumberOfOccurrences1941Test.java](../src/test/java/com/leetcode/easy/CheckIfAllCharactersHaveEqualNumberOfOccurrences1941Test.java) |
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | [FinalValueOfVariableAfterPerformingOperations2011.java](../src/main/java/com/leetcode/easy/FinalValueOfVariableAfterPerformingOperations2011.java) | [FinalValueOfVariableAfterPerformingOperations2011Test.java](../src/test/java/com/leetcode/easy/FinalValueOfVariableAfterPerformingOperations2011Test.java) |
 | 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | [TwoOutOfThree2032.java](../src/main/java/com/leetcode/easy/TwoOutOfThree2032.java) | [TwoOutOfThree2032Test.java](../src/test/java/com/leetcode/easy/TwoOutOfThree2032Test.java) |
 | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/) | [CheckIfAllAsAppearsBeforeAllBs2124.java](../src/main/java/com/leetcode/easy/CheckIfAllAsAppearsBeforeAllBs2124.java) | [CheckIfAllAsAppearsBeforeAllBs2124Test.java](../src/test/java/com/leetcode/easy/CheckIfAllAsAppearsBeforeAllBs2124Test.java) |
