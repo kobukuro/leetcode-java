@@ -1,6 +1,6 @@
 # Easy Problems
 
-Total: 38 problems solved
+Total: 39 problems solved
 
 ## Solutions
 
@@ -32,6 +32,7 @@ Total: 38 problems solved
 | 1603 | [Design Parking System](https://leetcode.com/problems/design-parking-system/) | [DesignParkingSystem1603.java](../src/main/java/com/leetcode/easy/DesignParkingSystem1603.java) | [DesignParkingSystem1603Test.java](../src/test/java/com/leetcode/easy/DesignParkingSystem1603Test.java) |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | [CheckIfTwoStringArraysAreEquivalent1662.java](../src/main/java/com/leetcode/easy/CheckIfTwoStringArraysAreEquivalent1662.java) | [CheckIfTwoStringArraysAreEquivalent1662Test.java](../src/test/java/com/leetcode/easy/CheckIfTwoStringArraysAreEquivalent1662Test.java) |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [RichestCustomerWealth1672.java](../src/main/java/com/leetcode/easy/RichestCustomerWealth1672.java) | [RichestCustomerWealth1672Test.java](../src/test/java/com/leetcode/easy/RichestCustomerWealth1672Test.java) |
+| 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/) | [CountTheNumberOfConsistentStrings1684.java](../src/main/java/com/leetcode/easy/CountTheNumberOfConsistentStrings1684.java) | [CountTheNumberOfConsistentStrings1684Test.java](../src/test/java/com/leetcode/easy/CountTheNumberOfConsistentStrings1684Test.java) |
 | 1773 | [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) | [CountItemsMatchingARule1773.java](../src/main/java/com/leetcode/easy/CountItemsMatchingARule1773.java) | [CountItemsMatchingARule1773Test.java](../src/test/java/com/leetcode/easy/CountItemsMatchingARule1773Test.java) |
 | 1816 | [Truncate Sentence](https://leetcode.com/problems/truncate-sentence/) | [TruncateSentence1816.java](../src/main/java/com/leetcode/easy/TruncateSentence1816.java) | [TruncateSentence1816Test.java](../src/test/java/com/leetcode/easy/TruncateSentence1816Test.java) |
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/) | [CheckIfAllCharactersHaveEqualNumberOfOccurrences1941.java](../src/main/java/com/leetcode/easy/CheckIfAllCharactersHaveEqualNumberOfOccurrences1941.java) | [CheckIfAllCharactersHaveEqualNumberOfOccurrences1941Test.java](../src/test/java/com/leetcode/easy/CheckIfAllCharactersHaveEqualNumberOfOccurrences1941Test.java) |
